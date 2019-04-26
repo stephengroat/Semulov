@@ -1,3 +1,3 @@
 language: objective-c
-xcode_project: Semulov.xcodeproj
-xcode_scheme: Semulov Release
+osx_image: xcode10
+script: set -o pipefail && xcodebuild -project Semulov.xcodeproj -scheme Semulov\ Release build
