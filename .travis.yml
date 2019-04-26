@@ -1,4 +1,3 @@
 language: objective-c
 xcode_project: Semulov.xcodeproj
-#xcode_scheme: Release
-script: xcodebuild -project Semulov.xcodeproj -list
+xcode_scheme: Semulov Release
